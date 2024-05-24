@@ -113,8 +113,13 @@ function Game() {
 
   if (winner || isDraw) {
     moves.push(
+      <TouchableOpacity style={styles.gameInfoButton} key="game-over" >
+        <Text style={styles.gameInfoButtonText}>Game Over!</Text>
+      </TouchableOpacity>
+    );
+    moves.push(
       <TouchableOpacity style={styles.gameInfoButton} key="game-over" onPress={resetGame}>
-        <Text style={styles.gameInfoButtonText}>Game Over! Start Again!</Text>
+        <Text style={styles.gameRestart}>Start Again!</Text>
       </TouchableOpacity>
     );
   }
@@ -198,5 +203,11 @@ const styles = StyleSheet.create({
     borderColor: '#999',
     padding: 3,
     margin: 2
+  },
+
+  gameRestart: {
+    fontWeight: 'bold',
+    backgroundColor: '#e8e4f6',
+    color: '#5d4a84',
   },
 });
