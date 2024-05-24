@@ -118,7 +118,7 @@ function Game() {
       </TouchableOpacity>
     );
   }
-  
+
   return (
     <View style={styles.game}>
       <View style={styles.gameBoard}>
@@ -145,8 +145,8 @@ const styles = StyleSheet.create({
     fontSize: 60,
     borderWidth: 1,
     borderColor: '#999',
-    paddingLeft: 40,
-    paddingRight: 40,
+    paddingLeft: 30,
+    paddingRight: 30,
     alignSelf: 'center',
     marginBottom: 5,
     color: 'rgb(93, 90, 142)',
@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
   },
 
   gameInfoButtonText: {
-    fontSize: '18px',
+    fontSize: 18,
     color: 'rgb(93, 90, 142)'
   },
 
