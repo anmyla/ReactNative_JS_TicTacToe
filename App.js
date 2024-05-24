@@ -145,8 +145,8 @@ const styles = StyleSheet.create({
     fontSize: 50,
     borderWidth: 1,
     borderColor: '#999',
-    paddingLeft: 20,
-    paddingRight: 20,
+    paddingLeft: 10,
+    paddingRight: 10,
     alignSelf: 'center',
     marginBottom: 5,
     color: 'rgb(93, 90, 142)',
@@ -162,8 +162,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#e8e4f6',
     borderWidth: 1,
     borderColor: '#999',
-    width: 90,
-    height: 90,
+    width: 80,
+    height: 80,
     alignItems: 'center',
     justifyContent: 'center',
     margin: 3,
@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
   },
 
   gameInfoButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     color: 'rgb(93, 90, 142)'
   },
 
