@@ -122,7 +122,7 @@ function Game() {
   return (
     <View style={styles.game}>
       <View style={styles.gameBoard}>
-        <Text style={styles.title}>-TicTacToe-</Text>
+        <Text style={styles.title}>TicTacToe</Text>
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </View>
       <ScrollView style={styles.gameInfo}>
@@ -142,7 +142,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   title: {
-    fontSize: 70,
+    fontSize: 60,
+    borderWidth: 1,
+    borderColor: '#999',
+    paddingLeft: 40,
+    paddingRight: 40,
     alignSelf: 'center',
     marginBottom: 5,
     color: 'rgb(93, 90, 142)',
