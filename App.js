@@ -145,6 +145,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
+    backgroundColor: '#000',
   },
   title: {
     fontSize: 50,
@@ -154,14 +155,14 @@ const styles = StyleSheet.create({
     paddingRight: 10,
     alignSelf: 'center',
     marginBottom: 5,
-    color: 'rgb(93, 90, 142)',
+    color: '#fff',
   },
   status: {
     alignSelf: 'center',
     marginBottom: 5,
     fontSize: 24,
     fontWeight: '800',
-    color: 'rgb(93, 90, 142)',
+    color: '#fff',
   },
   square: {
     backgroundColor: '#e8e4f6',
@@ -176,7 +177,7 @@ const styles = StyleSheet.create({
   squareText: {
     fontSize: 62,
     fontWeight: 'bold',
-    color: '#5d4a84',
+    color: '#000',
   },
   boardRow: {
     flexDirection: 'row',
@@ -194,11 +195,11 @@ const styles = StyleSheet.create({
 
   gameInfoButtonText: {
     fontSize: 14,
-    color: 'rgb(93, 90, 142)'
+    color: '#fff',
   },
 
   gameInfoButton: {
-    backgroundColor: '#e8e4f6',
+    backgroundColor: '#000',
     borderWidth: 1,
     borderColor: '#999',
     padding: 3,
@@ -207,7 +208,7 @@ const styles = StyleSheet.create({
 
   gameRestart: {
     fontWeight: 'bold',
-    backgroundColor: '#e8e4f6',
-    color: '#5d4a84',
+    color: '#fff',
+    fontSize: 18,
   },
 });
